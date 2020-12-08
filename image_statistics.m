@@ -24,7 +24,7 @@ imgLap = imfilter(double(imgCrop),kernel);
 
 nMean=mean2(imgLap);
 nStd=std2(imgLap);
-nResult = nStd*2;
+nResult = nStd^2;
 
 imshow(imgLap);
 
